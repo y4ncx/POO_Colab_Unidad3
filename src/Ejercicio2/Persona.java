@@ -1,3 +1,5 @@
+package Ejercicio2;
+
 class Persona {
     
     int id;
@@ -10,12 +12,14 @@ class Persona {
 
         this.id = id;
         this.nombre = nombre;
-        this.nombre2 = nombre2
+        this.nombre2 = nombre2;
         this.edad = edad;
 
     }
 
-    public void presentarse();
+    public void presentarse() {
+        System.out.println("Hola, me llamo " + nombre + " " + nombre2 + " y tengo " + edad + " años.");
+    }
 
     public int getId() {
         return id;

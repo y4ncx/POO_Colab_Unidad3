@@ -1,3 +1,5 @@
+package Ejercicio4;
+
 class Bicicleta extends Vehiculo {
     
     private String tipo;

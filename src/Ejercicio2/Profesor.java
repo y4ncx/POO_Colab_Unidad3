@@ -1,3 +1,5 @@
+package Ejercicio2;
+
 class Profesor extends Persona {
 
     private String asignatura;
