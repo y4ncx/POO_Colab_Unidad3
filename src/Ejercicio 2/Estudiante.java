@@ -15,7 +15,7 @@ class Estudiante extends Persona {
     @Override
     public void presentarse() {
 
-        System.out.println("Muy buenas, mi nombre es " + getNombre() + getNombre2() ", tengo " + getEdad() + " años y ando estudiando " + carreara + "de" + semestre " semestre.");
+        System.out.println("Muy buenas, mi nombre es " + getNombre() + getNombre2() + ", tengo " + getEdad() + " años y ando estudiando " + carreara + "de" + semestre " semestre.");
 
     }
 
